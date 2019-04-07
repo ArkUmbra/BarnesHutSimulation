@@ -46,7 +46,6 @@ class Node(Drawable):
                 return
 
         # Node has fallen out of bounds, so we just eat it
-        # raise Exception('particle added to wrong node')
         print ('Node moved out of bounds')
 
     def boundsAround(self, particle):
